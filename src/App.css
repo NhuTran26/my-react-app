@@ -1,0 +1,86 @@
+.Character {
+  text-align: center;
+  font-weight: normal;
+}
+
+#Kbu {
+  text-align: center;
+  font-weight: normal;
+  color: FF9843;
+  font-family: Copperplate;
+  border-style: solid;
+}
+
+#Cute {
+  color: #7469B6;
+  background-color:#FFE6E6;
+  border-style: dotted;
+  font-family: Garamond, Georgia;
+}
+
+#Beautiful {
+  color: #FF8080;
+  background-color:#D2E0FB;
+  border-style: dotted;
+  font-family: Garamond, Georgia;
+}
+
+#Intelligent {
+  color: #80BCBD;
+  background-color:#F9F7C9;
+  border-style: dotted;
+  font-family: Garamond, Georgia; 
+}
+
+#Friendly {
+  color: #BEADFA;
+  background-color:#FFF8C9;
+  border-style: dotted;
+  font-family: Garamond, Georgia;
+}
+
+#Honest{
+  color: #ECE3CE;
+  background-color:#3A4D39;
+  border-style: dotted;
+  font-family: Garamond, Georgia;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
